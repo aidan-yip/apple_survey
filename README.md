@@ -1,5 +1,5 @@
 # Apple_Survey
-Example of a survey form with an Apple like design
+Example of a survey form with an Apple like design.
 
 # Important
 
