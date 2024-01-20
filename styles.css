@@ -173,6 +173,7 @@ input[type=email] {
 
 form {
    padding-top: 20px;
+   padding-bottom: 70px;
 }
 
 textarea {
