@@ -3,7 +3,7 @@ Example of a survey form with an Apple like design
 
 # Important
 
-No back end form does not submit. This is for showcasing front end design purposes only.
+No back end. Form does not submit. This is for showcasing front end design purposes only.
 
 # Trademarks
 
