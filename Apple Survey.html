@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="Apple.css" />
+    <head>
+        
+        <h1 id="title">Apple Survey</h1>
+    </head>
+    <body>
+<form id="survey-form">      
+<div>
+  <h4 class="applelogo"></h4>
+  <p id="description" class="toptext">Welecome to the device survey. We would like to know the types of devices you own to help serve you better online!</p>
+        <h3>How many devices do you have?</h3>
+
+<fieldset>
+        <label for="number" id="number-label">
+        <input type="number" id="number" class="number" min="0" max="20" placeholder="  Enter a number"/>  
+         </label> 
+</fieldset>
+        <h3>Please select the type of Apple devices you have:</h3>
+
+     <fieldset>
+        <label for="checkbox">
+        <input id="checkbox" type="checkbox" class="inline" value="iphone"/> iPhone</label>
+        <label for="checkbox">
+        <input id="checkbox" type="checkbox" class="inline" value="ipad"/>
+iPad</label>
+        <label for="checkbox">
+        <input id="checkbox" type="checkbox" class="inline" value="mac"/>
+Mac</label>
+        <label for="checkbox"><input id="checkbox" type="checkbox" class="inline" value="apple-watch"/>
+Apple Watch</label>
+  </fieldset>
+
+
+         <h3>Do you have an Apple ID?</h3>
+  <fieldset>
+    <label for="yes">
+    <input type="radio" name="yesorno" id="yes" value="yes"/> Yes
+  </label>
+    <label for="no">
+    <input type="radio" name="yesorno" id="no" value="no" /> No
+  </label>
+    <label for="idk"> 
+    <input type="radio" name="yesorno" id="idk" value="idk" /> I don't know
+  </label>
+  </fieldset>
+
+          <h3>How much do you enjoy your Apple devices?</h3>
+  <fieldset>
+    <select id="dropdown">
+      <option value="" disabled selected>Select one</option>
+      <option value="Happy"> Very much so</option>
+      <option value="so-so"> They're ok...</option>
+      <option value="hate"> They make me miserable</option>
+    </select>
+  </fieldset>
+      
+  <fieldset>
+    <label for="name" id="name-label">Name:
+    <input type="text" id="name"  placeholder="  Enter your name" required />
+</label>
+
+    <br>
+
+    <label for="password" id="password-label">Password:
+    <input type="password" id="password" placeholder="  Enter your password" required />
+    </label>
+
+    <br>
+    
+    <label for="email-label" id="email-label">Email:
+    <input type="email" name="email" id="email" placeholder="  Enter your email" required />
+    </label>
+  </fieldset>
+
+<h3>How may we improve this survey?</h3>
+
+<fieldset for="textarea">
+<textarea placeholder="Please leave some comments" id="textarea"></textarea>
+</fieldset>
+  
+    <input type="submit" id="submit"/>
+  
+<br>
+</div>
+</form>
+
+    </body>
+</html>
