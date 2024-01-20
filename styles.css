@@ -12,12 +12,6 @@
 
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
 body {
   background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(216,216,216,1) 77%, rgba(171,171,171,1) 100%);
 }
