@@ -19,7 +19,6 @@ input::-webkit-inner-spin-button {
 }
 
 body {
-  width: 100%;
   background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(216,216,216,1) 77%, rgba(171,171,171,1) 100%);
 }
 
