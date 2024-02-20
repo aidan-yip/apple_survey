@@ -6,7 +6,7 @@ Example of a survey form with an Apple like design.
 
 # Important
 
-No back end. Form does not submit. This is for showcasing front end design purposes only.
+No back end. Form submits through Netlify. This is mainly for showcasing front end design purposes.
 
 # Trademarks
 
