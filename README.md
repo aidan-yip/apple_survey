@@ -4,9 +4,9 @@
 
 Example of a survey form with an Apple like design.
 
-# Important
+# Powered by
 
-No back end. Form submits through Netlify. This is mainly for showcasing front end design purposes.
+The Netlify API
 
 # Trademarks
 
