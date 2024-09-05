@@ -4,9 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f4f4f4" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
     <link rel="manifest" href="./site.webmanifest" />
     <link rel="stylesheet" href="Apple.css" />
     <title>Apple Survey</title>
@@ -38,42 +52,59 @@
         <h3>Please select the type of Apple devices you have.</h3>
 
         <fieldset>
-          <label for="iphone">
-            <input id="iphone" type="checkbox" class="inline" value="iphone" />
-            iPhone</label
-          >
-          <label for="ipad">
-            <input id="ipad" type="checkbox" class="inline" value="ipad" />
-            iPad</label
-          >
-          <label for="mac">
-            <input id="mac" type="checkbox" class="inline" value="mac" />
-            Mac</label
-          >
-          <label for="watch"
+          <label for="iphone" class="checkbox-container">
+            <input
+              id="iphone"
+              type="checkbox"
+              class="inline custom-checkbox"
+              value="iphone" />
+            iPhone
+            <span class="checkmark"></span
+          ></label>
+
+          <label for="ipad" class="checkbox-container">
+            <input
+              id="ipad"
+              type="checkbox"
+              class="inline custom-checkbox"
+              value="ipad" />
+            iPad<span class="checkmark"></span
+          ></label>
+
+          <label for="mac" class="checkbox-container">
+            <input
+              id="mac"
+              type="checkbox"
+              class="inline custom-checkbox"
+              value="mac" />
+            Mac<span class="checkmark"></span
+          ></label>
+
+          <label for="watch" class="checkbox-container"
             ><input
               id="watch"
               type="checkbox"
-              class="inline"
-              value="apple-watch"
-            />
-            Apple Watch</label
-          >
+              class="inline custom-checkbox"
+              value="apple-watch" />
+            Apple Watch<span class="checkmark"></span
+          ></label>
         </fieldset>
 
         <h3>Do you have an Apple ID?</h3>
-        <fieldset id="apple_id">
-          <label for="yes">
+        <fieldset id="apple_id" class="radio-inputs">
+          <label for="yes" class="radio">
             <input
               type="radio"
               name="yesorno"
               id="yes"
               class="inline"
               value="yes"
+              checked=""
             />
-            Yes
+            <span class="name">Yes</span>
           </label>
-          <label for="no">
+
+          <label for="no" class="radio">
             <input
               type="radio"
               name="yesorno"
@@ -81,9 +112,10 @@
               class="inline"
               value="no"
             />
-            No
+            <span class="name">No</span>
           </label>
-          <label for="unsure">
+
+          <label for="unsure" class="radio">
             <input
               type="radio"
               name="yesorno"
@@ -91,7 +123,8 @@
               class="inline"
               value="unsure"
             />
-            Unsure
+            
+            <span class="name">Unsure</span>
           </label>
         </fieldset>
 
